@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "TwoSum.h"
 #include <iostream>
 #include "unordered_map"
@@ -27,7 +26,7 @@ vector<int> TwoSum::CalculateTwoSum(vector<int>& nums, int target)
 
 			if (myMap.find(nums[i]) == myMap.end())
 			{
-				
+
 				myMap[difference] = i;
 			}
 			else
